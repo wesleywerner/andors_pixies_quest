@@ -1,0 +1,6 @@
+build/
+drawable/
+tmp/
+.project
+*.md
+Makefile

@@ -1,0 +1,38 @@
+[
+    {
+        "id":"bela",
+        "message":"Welcome to Fallhaven Tavern. Have a seat anywhere.",
+        "replies":[
+            {
+                "text":"Let me see what food and drinks you have available.",
+                "nextPhraseID":"bela_select"
+            },
+            {
+                "text":"Are there any rooms available?",
+                "nextPhraseID":"bela_room_select"
+            },
+            {
+                "text":"Torilo suggested that I ask other tavern owners such as yourself about a 'business agreement' that you may have with a group of 'distributors'.",
+                "nextPhraseID":"bela_beer",
+                "requires":[
+                    {
+                        "requireType":"questLatestProgress",
+                        "requireID":"beer_bootlegging",
+                        "value":20
+                    }
+                ]
+            },
+            {
+                "text":"Do you have strawberries?",
+                "nextPhraseID":"bela_fae_strawberries",
+                "requires":[
+                    {
+                        "requireType":"questLatestProgress",
+                        "requireID":"fallhaven_fae",
+                        "value":11
+                    }
+                ]
+            }
+        ]
+    }
+]

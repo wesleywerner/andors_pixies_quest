@@ -1,0 +1,27 @@
+[
+    {
+        "id":"rigmor",
+        "message":"Well hello there! Aren't you a cute little fellow.",
+        "replies":[
+            {
+                "text":"Have you seen my brother Andor?",
+                "nextPhraseID":"rigmor_1"
+            },
+            {
+                "text":"I really need to go.",
+                "nextPhraseID":"rigmor_leave_select"
+            },
+            {
+                "text":"Can you tell me about the Fae?",
+                "nextPhraseID":"rigmor_fae_1",
+                "requires":[
+                    {
+                        "requireType":"questLatestProgress",
+                        "requireID":"fallhaven_fae",
+                        "value":1
+                    }
+                ]
+            }
+        ]
+    }
+]

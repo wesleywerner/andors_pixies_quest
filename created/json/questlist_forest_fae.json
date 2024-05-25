@@ -1,0 +1,89 @@
+[
+    {
+        "id":"fallhaven_fae",
+        "name":"It's Knot Funny",
+        "showInLog":1,
+        "stages":[
+            {
+                "progress":1,
+                "logText":"Arensia is being taunted by forest Fae while she slumbers. I agreed to help get rid of the mischevious creatures. I should talk to Rigmor, she lives in North Fallhaven."
+            },
+            {
+                "progress":10,
+                "logText":"Fae live near fairy rings. I should look for circular mushroom formations in the forest around Fallhaven."
+            },
+            {
+                "progress":11,
+                "logText":"I have to give the Fae a gift of two red apples and two strawberries, before I can talk to them."
+            },
+            {
+                "progress":12,
+                "logText":"The Fae accepted my gift. I am allowed to talk with them."
+            },
+            {
+                "progress":13,
+                "logText":"The Fae are considering my request to help."
+            },
+            {
+                "progress":20,
+                "logText":"The Fae agreed to leave Arensia be, on condition that I chop down a tree inside their fairy ring."
+            },
+            {
+                "progress":21,
+                "logText":"They changed their mind about chopping down the tree."
+            },
+            {
+                "progress":30,
+                "logText":"The Fae now want four bottles of mead."
+            },
+            {
+                "progress":31,
+                "logText":"They took the mead, but now want something else."
+            },
+            {
+                "progress":40,
+                "logText":"I have to find ten wild flowers for the Fae."
+            },
+            {
+                "progress":41,
+                "logText":"They accepted the flowers, but said they still want something."
+            },
+            {
+                "progress":90,
+                "logText":"The Fae want a token of Arensia's promise: that she will not to pick their mushrooms again."
+            },
+            {
+                "progress":91,
+                "logText":"I have Arensia's promise ring. I should give it to the Fae at once."
+            },
+            {
+                "progress":92,
+                "logText":"I gave Arensia's ring of promise to the Fae."
+            },
+            {
+                "progress":99,
+                "logText":"The Fae agreed to stop taunting Arensia. I should tell her!"
+            },
+            {
+                "progress":100,
+                "logText":"Arensia was elated that the Fae will no longer taunt her.",
+                "rewardExperience":50,
+                "finishesQuest":1
+            },
+            {
+                "progress":101,
+                "logText":"I could not take the Fae's absurd requests any further. I am no longer helping Arensia with her problem.",
+                "finishesQuest":1
+            },
+            {
+                "progress":102,
+                "logText":"I lied about Arensia's ring and kept it for myself.",
+                "finishesQuest":1
+            },
+            {
+                "progress":103,
+                "logText":"Arensia gave me her magical promise ring."
+            }
+        ]
+    }
+]
