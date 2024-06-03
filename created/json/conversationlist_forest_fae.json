@@ -735,6 +735,54 @@
         ]
     },
     {
+        "id":"arensia_fae_34",
+        "message":"They have, I no longer wake up with fairy-locks.",
+        "replies":[
+            {
+                "text":"I am happy to hear that.",
+                "nextPhraseID":"arensia_fae_35",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"fallhaven_fae",
+                        "value":102
+                    }
+                ]
+            },
+            {
+                "text":"I am happy to hear that.",
+                "nextPhraseID":"arensia_fae_36",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"fallhaven_fae",
+                        "value":103
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"arensia_fae_35",
+        "message":"But I see you are wearing the ring I gave them. You told me they kept it, which can only mean that you lied to me. You are just a common thief. Shame on you.",
+        "replies":[
+            {
+                "text":"But, I ... um ....",
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"arensia_fae_36",
+        "message":"I see you are wearing my magical ring. I hope it serves you well, you derserved it.",
+        "replies":[
+            {
+                "text":"I keep it safe, and it keeps me safe in return.",
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
         "id":"bela_fae_strawberries",
         "message":"I don't, but I believe the potion merchant here in Fallhaven has some.",
         "replies":[
@@ -806,6 +854,16 @@
                 "rewardType":"questProgress",
                 "rewardID":"fallhaven_fae",
                 "value":10
+            }
+        ]
+    },
+    {
+        "id":"rigmor_fae_6",
+        "message":"Poor Arensia, she looks exhausted and her hair is absolutely tousled.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"rigmor_fae_2"
             }
         ]
     },
@@ -1469,64 +1527,6 @@
     {
         "id":"fae_fallhaven_38",
         "message":"Hello $playername. We hope you are staying out of trouble."
-    },
-    {
-        "id":"arensia_fae_34",
-        "message":"They have, I no longer wake up with fairy-locks.",
-        "replies":[
-            {
-                "text":"I am happy to hear that.",
-                "nextPhraseID":"arensia_fae_35",
-                "requires":[
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"fallhaven_fae",
-                        "value":102
-                    }
-                ]
-            },
-            {
-                "text":"I am happy to hear that.",
-                "nextPhraseID":"arensia_fae_36",
-                "requires":[
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"fallhaven_fae",
-                        "value":103
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "id":"arensia_fae_35",
-        "message":"But I see you are wearing the ring I gave them. You told me they kept it, which can only mean that you lied to me. You are just a common thief. Shame on you.",
-        "replies":[
-            {
-                "text":"But, I ... um ....",
-                "nextPhraseID":"X"
-            }
-        ]
-    },
-    {
-        "id":"arensia_fae_36",
-        "message":"I see you are wearing my magical ring. I hope it serves you well, you derserved it.",
-        "replies":[
-            {
-                "text":"I keep it safe, and it keeps me safe in return.",
-                "nextPhraseID":"X"
-            }
-        ]
-    },
-    {
-        "id":"rigmor_fae_6",
-        "message":"Poor Arensia, she looks exhausted and her hair is absolutely tousled.",
-        "replies":[
-            {
-                "text":"N",
-                "nextPhraseID":"rigmor_fae_2"
-            }
-        ]
     },
     {
         "id":"fae_fallhaven_39",
