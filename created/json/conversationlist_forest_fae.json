@@ -465,7 +465,7 @@
                 "nextPhraseID":"X"
             },
             {
-                "text":"Where can I find those fruits?",
+                "text":"Where can I find apples and strawberries?",
                 "nextPhraseID":"arensia_fae_12"
             }
         ]
@@ -1043,7 +1043,7 @@
         "message":"Did you bring us a gift?",
         "replies":[
             {
-                "text":"Yes, here are the apples and strawberries.",
+                "text":"Yes, here are two red apples and two strawberries.",
                 "nextPhraseID":"fae_fallhaven_5",
                 "requires":[
                     {
@@ -1059,7 +1059,7 @@
                 ]
             },
             {
-                "text":"Um, no I did not. Sorry.",
+                "text":"I did not, sorry.",
                 "nextPhraseID":"fae_fallhaven_4"
             }
         ]
