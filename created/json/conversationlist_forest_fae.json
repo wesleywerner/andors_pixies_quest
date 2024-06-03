@@ -114,6 +114,27 @@
                         "negate":true
                     }
                 ]
+            },
+            {
+                "nextPhraseID":"fae_fallhaven_16",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"fallhaven_fae",
+                        "value":20
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"fallhaven_fae",
+                        "value":30,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"axe_fine_iron",
+                        "value":1
+                    }
+                ]
             }
         ]
     },
@@ -1115,7 +1136,7 @@
             },
             {
                 "text":"Okay, I will chop it down.",
-                "nextPhraseID":"X"
+                "nextPhraseID":"fae_fallhaven_39"
             }
         ],
         "rewards":[
@@ -1128,7 +1149,7 @@
     },
     {
         "id":"fae_fallhaven_15",
-        "message":"Hmm, this must be the tree the Pixies want chopped down. I need an axe though."
+        "message":"Hmm, this must be the tree the Pixies want chopped down. I need to get an iron axe."
     },
     {
         "id":"fae_fallhaven_16",
@@ -1504,6 +1525,16 @@
             {
                 "text":"N",
                 "nextPhraseID":"rigmor_fae_2"
+            }
+        ]
+    },
+    {
+        "id":"fae_fallhaven_39",
+        "message":"It is important that you use an iron axe. That tree is cursed, and only an iron axe will work.",
+        "replies":[
+            {
+                "text":"Okay, I understand.",
+                "nextPhraseID":"X"
             }
         ]
     }
