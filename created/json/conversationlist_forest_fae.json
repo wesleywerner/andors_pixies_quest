@@ -987,12 +987,23 @@
     },
     {
         "id":"fae_fallhaven_4",
-        "message":"Bring us two red apples, and two strawberries. Otherwise you'd best leave here, immediately. We don't appreciate non-gifters!",
+        "message":"Bring us two red apples and two strawberries. Since you came without a gift, we cast on you a mystical Pixie spell!",
+        "replies":[
+            {
+                "text":"I feel so ... tired.",
+                "nextPhraseID":"X"
+            }
+        ],
         "rewards":[
             {
                 "rewardType":"questProgress",
                 "rewardID":"fallhaven_fae",
                 "value":11
+            },
+            {
+                "rewardType":"actorCondition",
+                "rewardID":"fatigue_minor",
+                "value":6
             }
         ]
     },
