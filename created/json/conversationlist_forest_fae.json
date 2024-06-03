@@ -729,7 +729,7 @@
         "replies":[
             {
                 "text":"N",
-                "nextPhraseID":"rigmor_fae_2"
+                "nextPhraseID":"rigmor_fae_6"
             }
         ]
     },
@@ -1494,6 +1494,16 @@
             {
                 "text":"I keep it safe, and it keeps me safe in return.",
                 "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"rigmor_fae_6",
+        "message":"Poor Arensia, she looks exhausted and her hair is absolutely tousled.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"rigmor_fae_2"
             }
         ]
     }
