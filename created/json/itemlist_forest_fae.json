@@ -13,7 +13,7 @@
         "displaytype":"quest",
         "baseMarketCost":50,
         "category":"ring",
-        "description":"A ring embued with Arensia's promise to the Forest Fae."
+        "description":"A ring embued with Arensia's promise to the Pixies of the forest."
     },
     {
         "id":"ring_of_promise",
@@ -22,7 +22,7 @@
         "displaytype":"extraordinary",
         "baseMarketCost":750,
         "category":"ring",
-        "description":"A ring embued with Arensia's promise to the Forest Fae.",
+        "description":"A ring embued with Arensia's promise to the Pixies of the forest.",
         "equipEffect":{
             "increaseAttackDamage":{
                 "min":0,

@@ -38,7 +38,7 @@
                 ]
             },
             {
-                "text":"About the Fae ...",
+                "text":"About the Pixies ...",
                 "nextPhraseID":"arensia_fae_select",
                 "requires":[
                     {
@@ -55,7 +55,7 @@
                 ]
             },
             {
-                "text":"Have the Fae honored their word?",
+                "text":"Have the Pixies honored their word?",
                 "nextPhraseID":"arensia_fae_34",
                 "requires":[
                     {

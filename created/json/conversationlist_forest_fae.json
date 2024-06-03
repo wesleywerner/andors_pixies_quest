@@ -190,7 +190,7 @@
     },
     {
         "id":"arensia_fae_2",
-        "message":"I am being taunted by naughty forest Fae at night. At least that is what Rigmor tells me. They play with my hair while I sleep, and tangle it into fairy-lock knots. Every morning I wake up tired, and I spend an hour brushing out the knots. I don't know what to do!",
+        "message":"I am being taunted by naughty forest Pixies at night. At least that is what Rigmor tells me. They play with my hair while I sleep, and tangle it into fairy-lock knots. Every morning I wake up tired, and I spend an hour brushing out the knots. I don't know what to do!",
         "replies":[
             {
                 "text":"I am sorry to hear that, but I cannot help you right now.",
@@ -284,7 +284,7 @@
                 ]
             },
             {
-                "text":"The Fae are upset that you took their mushrooms. I pleaded with them, and am now waiting on their decision.",
+                "text":"The Pixies are upset that you took their mushrooms. I pleaded with them, and am now waiting on their decision.",
                 "nextPhraseID":"arensia_fae_10",
                 "requires":[
                     {
@@ -306,7 +306,7 @@
                 ]
             },
             {
-                "text":"The Fae changed their minds, and are now thinking of something else they want instead.",
+                "text":"The Pixies changed their minds, and are now thinking of something else they want instead.",
                 "nextPhraseID":"arensia_fae_13",
                 "requires":[
                     {
@@ -361,7 +361,7 @@
                 ]
             },
             {
-                "text":"The Fae ask that you make a promise to never pick mushrooms from their fairy ring again.",
+                "text":"The Pixies ask that you make a promise to never pick mushrooms from their fairy ring again.",
                 "nextPhraseID":"arensia_fae_19",
                 "requires":[
                     {
@@ -417,7 +417,7 @@
     },
     {
         "id":"arensia_fae_9",
-        "message":"Thank you so much for helping me with the Fae!",
+        "message":"Thank you so much for helping me with the Pixies!",
         "replies":[
             {
                 "text":"You are welcome!",
@@ -488,7 +488,7 @@
                 "nextPhraseID":"arensia_fae_16"
             },
             {
-                "text":"The Fae are driving me insane. I thought about this, and I can't help you any more. I am sorry.",
+                "text":"The Pixies are driving me insane. I thought about this, and I can't help you any more. I am sorry.",
                 "nextPhraseID":"arensia_fae_29"
             }
         ]
@@ -542,7 +542,7 @@
     },
     {
         "id":"arensia_fae_20",
-        "message":"I know, I will promise on this ring I'm wearing. It belonged to my mother, and it's dear to me, but I will do anything to stop the Fae!",
+        "message":"I know, I will promise on this ring I'm wearing. It belonged to my mother, and it's dear to me, but I will do anything to stop the Pixies!",
         "replies":[
             {
                 "text":"I hope this works.",
@@ -552,7 +552,7 @@
     },
     {
         "id":"arensia_fae_21",
-        "message":"I made a promise to the ring, here take it to the Fae!",
+        "message":"I made a promise to the ring, here take it to the Pixies!",
         "replies":[
             {
                 "text":"I will, right away!",
@@ -574,14 +574,14 @@
     },
     {
         "id":"arensia_fae_22",
-        "message":"There is nothing else to be done, and I will have to live with the Fae tormenting me until my last day."
+        "message":"There is nothing else to be done, and I will have to live with the Pixies tormenting me until my last day."
     },
     {
         "id":"arensia_fae_23",
         "message":"So ... what did they say?",
         "replies":[
             {
-                "text":"The Fae finally agreed to leave you in peace.",
+                "text":"The Pixies finally agreed to leave you in peace.",
                 "nextPhraseID":"arensia_fae_24"
             }
         ]
@@ -738,11 +738,11 @@
         "message":"What do you want to know?",
         "replies":[
             {
-                "text":"What are Fae?",
+                "text":"What are Pixies?",
                 "nextPhraseID":"rigmor_fae_3"
             },
             {
-                "text":"Where can I find the Fae?",
+                "text":"Where can I find the Pixies?",
                 "nextPhraseID":"rigmor_fae_5"
             },
             {
@@ -753,7 +753,7 @@
     },
     {
         "id":"rigmor_fae_3",
-        "message":"Fae are small magical beings that live in the forest. They have wings and live in the trees.",
+        "message":"Pixies are small magical beings that live in the forest. They have wings and live in the trees.",
         "replies":[
             {
                 "text":"N",
@@ -773,7 +773,7 @@
     },
     {
         "id":"rigmor_fae_5",
-        "message":"Fae gather near fairy rings, which look like large circles of mushroom growth.",
+        "message":"Pixies gather near fairy rings, which look like large circles of mushroom growth.",
         "replies":[
             {
                 "text":"N",
@@ -951,7 +951,7 @@
     },
     {
         "id":"fae_fallhaven_2",
-        "message":"Well met, $playername. I won't tell you my name, it is forbidden for non-Fae to know our names.",
+        "message":"Well met, $playername. I won't tell you my name, it is forbidden for otherkinds to know our names.",
         "replies":[
             {
                 "text":"N",
@@ -1117,7 +1117,7 @@
     },
     {
         "id":"fae_fallhaven_15",
-        "message":"Hmm, this must be the tree the Fae want chopped down. I need an axe though."
+        "message":"Hmm, this must be the tree the Pixies want chopped down. I need an axe though."
     },
     {
         "id":"fae_fallhaven_16",

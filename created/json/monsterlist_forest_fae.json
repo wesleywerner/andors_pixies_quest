@@ -1,7 +1,7 @@
 [
     {
         "id":"fae_fallhaven",
-        "name":"Forest Fae",
+        "name":"Pixie",
         "iconID":"monsters_ld1:203",
         "moveCost":2,
         "monsterClass":"humanoid",

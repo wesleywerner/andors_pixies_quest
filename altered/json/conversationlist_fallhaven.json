@@ -12,7 +12,7 @@
                 "nextPhraseID":"rigmor_leave_select"
             },
             {
-                "text":"Can you tell me about the Fae?",
+                "text":"Can you tell me about the Pixies?",
                 "nextPhraseID":"rigmor_fae_1",
                 "requires":[
                     {

@@ -6,27 +6,27 @@
         "stages":[
             {
                 "progress":1,
-                "logText":"Arensia is being taunted by forest Fae while she slumbers. I agreed to help get rid of the mischevious creatures. I should talk to Rigmor, she lives in North Fallhaven."
+                "logText":"Arensia is being taunted by Pixies while she slumbers. I agreed to help get rid of the mischevious creatures. I should talk to Rigmor, she lives in North Fallhaven."
             },
             {
                 "progress":10,
-                "logText":"Fae live near fairy rings. I should look for circular mushroom formations in the forest around Fallhaven."
+                "logText":"Pixies live near fairy rings. I should look for circular mushroom formations in the forest around Fallhaven."
             },
             {
                 "progress":11,
-                "logText":"I have to give the Fae a gift of two red apples and two strawberries, before I can talk to them."
+                "logText":"I have to give the Pixies a gift of two red apples and two strawberries, before I can talk to them."
             },
             {
                 "progress":12,
-                "logText":"The Fae accepted my gift. I am allowed to talk with them."
+                "logText":"The Pixies accepted my gift. I am allowed to talk with them."
             },
             {
                 "progress":13,
-                "logText":"The Fae are considering my request to help."
+                "logText":"The Pixies are considering my request to help."
             },
             {
                 "progress":20,
-                "logText":"The Fae agreed to leave Arensia be, on condition that I chop down a tree inside their fairy ring."
+                "logText":"The Pixies agreed to leave Arensia be, on condition that I chop down a tree inside their fairy ring."
             },
             {
                 "progress":21,
@@ -34,7 +34,7 @@
             },
             {
                 "progress":30,
-                "logText":"The Fae now want four bottles of mead."
+                "logText":"The Pixies now want four bottles of mead."
             },
             {
                 "progress":31,
@@ -42,7 +42,7 @@
             },
             {
                 "progress":40,
-                "logText":"I have to find ten wild flowers for the Fae."
+                "logText":"I have to find ten wild flowers for the Pixies."
             },
             {
                 "progress":41,
@@ -50,29 +50,29 @@
             },
             {
                 "progress":90,
-                "logText":"The Fae want a token of Arensia's promise: that she will not to pick their mushrooms again."
+                "logText":"The Pixies want a token of Arensia's promise: that she will not to pick their mushrooms again."
             },
             {
                 "progress":91,
-                "logText":"I have Arensia's promise ring. I should give it to the Fae at once."
+                "logText":"I have Arensia's promise ring. I should give it to the Pixies at once."
             },
             {
                 "progress":92,
-                "logText":"I gave Arensia's ring of promise to the Fae."
+                "logText":"I gave Arensia's ring of promise to the Pixies."
             },
             {
                 "progress":99,
-                "logText":"The Fae agreed to stop taunting Arensia. I should tell her!"
+                "logText":"The Pixies agreed to stop taunting Arensia. I should tell her!"
             },
             {
                 "progress":100,
-                "logText":"Arensia was elated that the Fae will no longer taunt her.",
+                "logText":"Arensia was elated that the Pixies will no longer taunt her.",
                 "rewardExperience":50,
                 "finishesQuest":1
             },
             {
                 "progress":101,
-                "logText":"I could not take the Fae's absurd requests any further. I am no longer helping Arensia with her problem.",
+                "logText":"I could not take the Pixies' absurd requests any further. I am no longer helping Arensia with her problem.",
                 "finishesQuest":1
             },
             {
