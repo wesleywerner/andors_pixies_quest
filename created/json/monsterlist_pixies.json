@@ -1,12 +1,12 @@
 [
     {
-        "id":"fae_fallhaven",
+        "id":"pixie_fallhaven",
         "name":"Pixie",
         "iconID":"monsters_ld1:203",
         "moveCost":2,
         "monsterClass":"humanoid",
-        "spawnGroup":"fae_fallhaven",
-        "phraseID":"fae_fallhaven_select"
+        "spawnGroup":"pixie_fallhaven",
+        "phraseID":"pixie_fallhaven_select"
     },
     {
         "id":"wild_flower",

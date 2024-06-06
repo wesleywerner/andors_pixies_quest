@@ -13,11 +13,11 @@
             },
             {
                 "text":"Can you tell me about the Pixies?",
-                "nextPhraseID":"rigmor_fae_1",
+                "nextPhraseID":"rigmor_pixie_1",
                 "requires":[
                     {
                         "requireType":"questLatestProgress",
-                        "requireID":"fallhaven_fae",
+                        "requireID":"fallhaven_pixies",
                         "value":1
                     }
                 ]

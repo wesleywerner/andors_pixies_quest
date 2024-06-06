@@ -27,11 +27,11 @@
             },
             {
                 "text":"You seem tired. Is everything alright?",
-                "nextPhraseID":"arensia_fae_select",
+                "nextPhraseID":"arensia_pixie_select",
                 "requires":[
                     {
                         "requireType":"questProgress",
-                        "requireID":"fallhaven_fae",
+                        "requireID":"fallhaven_pixies",
                         "value":1,
                         "negate":true
                     }
@@ -39,16 +39,16 @@
             },
             {
                 "text":"About the Pixies ...",
-                "nextPhraseID":"arensia_fae_select",
+                "nextPhraseID":"arensia_pixie_select",
                 "requires":[
                     {
                         "requireType":"questProgress",
-                        "requireID":"fallhaven_fae",
+                        "requireID":"fallhaven_pixies",
                         "value":1
                     },
                     {
                         "requireType":"questProgress",
-                        "requireID":"fallhaven_fae",
+                        "requireID":"fallhaven_pixies",
                         "value":100,
                         "negate":true
                     }
@@ -56,11 +56,11 @@
             },
             {
                 "text":"Have the Pixies honored their word?",
-                "nextPhraseID":"arensia_fae_34",
+                "nextPhraseID":"arensia_pixie_34",
                 "requires":[
                     {
                         "requireType":"questProgress",
-                        "requireID":"fallhaven_fae",
+                        "requireID":"fallhaven_pixies",
                         "value":100
                     },
                     {

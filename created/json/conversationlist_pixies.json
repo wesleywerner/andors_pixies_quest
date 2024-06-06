@@ -1,13 +1,13 @@
 [
     {
-        "id":"chk_fae_fallhaven",
+        "id":"chk_pixie_fallhaven",
         "replies":[
             {
-                "nextPhraseID":"chk_fae_fallhaven_spawn",
+                "nextPhraseID":"chk_pixie_fallhaven_spawn",
                 "requires":[
                     {
                         "requireType":"questProgress",
-                        "requireID":"fallhaven_fae",
+                        "requireID":"fallhaven_pixies",
                         "value":10
                     }
                 ]
@@ -15,24 +15,24 @@
         ]
     },
     {
-        "id":"chk_fae_fallhaven_spawn",
+        "id":"chk_pixie_fallhaven_spawn",
         "rewards":[
             {
                 "rewardType":"spawnAll",
-                "rewardID":"fae_circle",
+                "rewardID":"pixie_circle",
                 "mapName":"gapfiller2"
             }
         ]
     },
     {
-        "id":"chk_fae_wildflowers",
+        "id":"chk_pixie_wildflowers",
         "replies":[
             {
-                "nextPhraseID":"chk_fae_wildflowers_spawn",
+                "nextPhraseID":"chk_pixie_wildflowers_spawn",
                 "requires":[
                     {
                         "requireType":"questProgress",
-                        "requireID":"fallhaven_fae",
+                        "requireID":"fallhaven_pixies",
                         "value":40
                     }
                 ]
@@ -40,7 +40,7 @@
         ]
     },
     {
-        "id":"chk_fae_wildflowers_spawn",
+        "id":"chk_pixie_wildflowers_spawn",
         "rewards":[
             {
                 "rewardType":"spawnAll",
@@ -70,14 +70,14 @@
         ]
     },
     {
-        "id":"fae_fallhaven_tree",
+        "id":"pixie_fallhaven_tree",
         "replies":[
             {
-                "nextPhraseID":"fae_fallhaven_15",
+                "nextPhraseID":"pixie_fallhaven_15",
                 "requires":[
                     {
                         "requireType":"questProgress",
-                        "requireID":"fallhaven_fae",
+                        "requireID":"fallhaven_pixies",
                         "value":20
                     },
                     {
@@ -88,18 +88,18 @@
                     },
                     {
                         "requireType":"questProgress",
-                        "requireID":"fallhaven_fae",
+                        "requireID":"fallhaven_pixies",
                         "value":30,
                         "negate":true
                     }
                 ]
             },
             {
-                "nextPhraseID":"fae_fallhaven_16",
+                "nextPhraseID":"pixie_fallhaven_16",
                 "requires":[
                     {
                         "requireType":"questProgress",
-                        "requireID":"fallhaven_fae",
+                        "requireID":"fallhaven_pixies",
                         "value":20
                     },
                     {
@@ -109,23 +109,23 @@
                     },
                     {
                         "requireType":"questProgress",
-                        "requireID":"fallhaven_fae",
+                        "requireID":"fallhaven_pixies",
                         "value":30,
                         "negate":true
                     }
                 ]
             },
             {
-                "nextPhraseID":"fae_fallhaven_16",
+                "nextPhraseID":"pixie_fallhaven_16",
                 "requires":[
                     {
                         "requireType":"questProgress",
-                        "requireID":"fallhaven_fae",
+                        "requireID":"fallhaven_pixies",
                         "value":20
                     },
                     {
                         "requireType":"questProgress",
-                        "requireID":"fallhaven_fae",
+                        "requireID":"fallhaven_pixies",
                         "value":30,
                         "negate":true
                     },
@@ -139,92 +139,92 @@
         ]
     },
     {
-        "id":"arensia_fae_select",
+        "id":"arensia_pixie_select",
         "replies":[
             {
-                "nextPhraseID":"arensia_fae_1",
+                "nextPhraseID":"arensia_pixie_1",
                 "requires":[
                     {
                         "requireType":"questProgress",
-                        "requireID":"fallhaven_fae",
+                        "requireID":"fallhaven_pixies",
                         "value":1,
                         "negate":true
                     }
                 ]
             },
             {
-                "nextPhraseID":"arensia_fae_22",
+                "nextPhraseID":"arensia_pixie_22",
                 "requires":[
                     {
                         "requireType":"questProgress",
-                        "requireID":"fallhaven_fae",
+                        "requireID":"fallhaven_pixies",
                         "value":101
                     }
                 ]
             },
             {
-                "nextPhraseID":"arensia_fae_5",
+                "nextPhraseID":"arensia_pixie_5",
                 "requires":[
                     {
                         "requireType":"questProgress",
-                        "requireID":"fallhaven_fae",
+                        "requireID":"fallhaven_pixies",
                         "value":12,
                         "negate":true
                     }
                 ]
             },
             {
-                "nextPhraseID":"arensia_fae_6",
+                "nextPhraseID":"arensia_pixie_6",
                 "requires":[
                     {
                         "requireType":"questProgress",
-                        "requireID":"fallhaven_fae",
+                        "requireID":"fallhaven_pixies",
                         "value":99,
                         "negate":true
                     }
                 ]
             },
             {
-                "nextPhraseID":"arensia_fae_23",
+                "nextPhraseID":"arensia_pixie_23",
                 "requires":[
                     {
                         "requireType":"questProgress",
-                        "requireID":"fallhaven_fae",
+                        "requireID":"fallhaven_pixies",
                         "value":99
                     }
                 ]
             },
             {
-                "nextPhraseID":"arensia_fae_9"
+                "nextPhraseID":"arensia_pixie_9"
             }
         ]
     },
     {
-        "id":"arensia_fae_1",
+        "id":"arensia_pixie_1",
         "message":"My sleep has been very restless lately.",
         "replies":[
             {
                 "text":"Oh no, why are you not sleeping well?",
-                "nextPhraseID":"arensia_fae_2"
+                "nextPhraseID":"arensia_pixie_2"
             }
         ]
     },
     {
-        "id":"arensia_fae_2",
+        "id":"arensia_pixie_2",
         "message":"I am being taunted by naughty forest Pixies at night. At least that is what Rigmor tells me. They play with my hair while I sleep, and tangle it into fairy-lock knots. Every morning I wake up tired, and I spend an hour brushing out the knots. I don't know what to do!",
         "replies":[
             {
                 "text":"I am sorry to hear that, but I cannot help you right now.",
-                "nextPhraseID":"arensia_fae_3"
+                "nextPhraseID":"arensia_pixie_3"
             },
             {
                 "text":"That sounds awful, can I help in any way?",
-                "nextPhraseID":"arensia_fae_4"
+                "nextPhraseID":"arensia_pixie_4"
             }
         ]
     },
     {
-        "id":"arensia_fae_3",
+        "id":"arensia_pixie_3",
         "message":"I understand. I guess I will just have to live with their mischief, and hope that I don't lose my hair, or my sanity!",
         "replies":[
             {
@@ -234,55 +234,55 @@
         ]
     },
     {
-        "id":"arensia_fae_4",
+        "id":"arensia_pixie_4",
         "message":"You would be willing to help me? I would be so grateful if you could make them leave me alone.",
         "replies":[
             {
                 "text":"N",
-                "nextPhraseID":"arensia_fae_33"
+                "nextPhraseID":"arensia_pixie_33"
             }
         ],
         "rewards":[
             {
                 "rewardType":"questProgress",
-                "rewardID":"fallhaven_fae",
+                "rewardID":"fallhaven_pixies",
                 "value":1
             }
         ]
     },
     {
-        "id":"arensia_fae_5",
+        "id":"arensia_pixie_5",
         "message":"Have you found them yet?",
         "replies":[
             {
                 "text":"Not yet. I still need to go talk with Rigmor to find out more.",
-                "nextPhraseID":"arensia_fae_33",
+                "nextPhraseID":"arensia_pixie_33",
                 "requires":[
                     {
                         "requireType":"questLatestProgress",
-                        "requireID":"fallhaven_fae",
+                        "requireID":"fallhaven_pixies",
                         "value":1
                     }
                 ]
             },
             {
                 "text":"Not yet. I am still looking for their fairy ring. You wouldn't know where it is, perhaps?",
-                "nextPhraseID":"arensia_fae_27",
+                "nextPhraseID":"arensia_pixie_27",
                 "requires":[
                     {
                         "requireType":"questLatestProgress",
-                        "requireID":"fallhaven_fae",
+                        "requireID":"fallhaven_pixies",
                         "value":10
                     }
                 ]
             },
             {
                 "text":"I did! They asked for a gift of apples and strawberries before I can talk to them.",
-                "nextPhraseID":"arensia_fae_11",
+                "nextPhraseID":"arensia_pixie_11",
                 "requires":[
                     {
                         "requireType":"questLatestProgress",
-                        "requireID":"fallhaven_fae",
+                        "requireID":"fallhaven_pixies",
                         "value":11
                     }
                 ]
@@ -290,126 +290,126 @@
         ]
     },
     {
-        "id":"arensia_fae_6",
+        "id":"arensia_pixie_6",
         "message":"Please tell me you have good news?",
         "replies":[
             {
                 "text":"They accepted the gift and will allow me to talk to them.",
-                "nextPhraseID":"arensia_fae_8",
+                "nextPhraseID":"arensia_pixie_8",
                 "requires":[
                     {
                         "requireType":"questLatestProgress",
-                        "requireID":"fallhaven_fae",
+                        "requireID":"fallhaven_pixies",
                         "value":12
                     }
                 ]
             },
             {
                 "text":"The Pixies are upset that you took their mushrooms. I pleaded with them, and am now waiting on their decision.",
-                "nextPhraseID":"arensia_fae_10",
+                "nextPhraseID":"arensia_pixie_10",
                 "requires":[
                     {
                         "requireType":"questLatestProgress",
-                        "requireID":"fallhaven_fae",
+                        "requireID":"fallhaven_pixies",
                         "value":13
                     }
                 ]
             },
             {
                 "text":"I have, and they agreed to stop pestering you if I help cut down a tree for them.",
-                "nextPhraseID":"arensia_fae_7",
+                "nextPhraseID":"arensia_pixie_7",
                 "requires":[
                     {
                         "requireType":"questLatestProgress",
-                        "requireID":"fallhaven_fae",
+                        "requireID":"fallhaven_pixies",
                         "value":20
                     }
                 ]
             },
             {
                 "text":"The Pixies changed their minds, and are now thinking of something else they want instead.",
-                "nextPhraseID":"arensia_fae_13",
+                "nextPhraseID":"arensia_pixie_13",
                 "requires":[
                     {
                         "requireType":"questLatestProgress",
-                        "requireID":"fallhaven_fae",
+                        "requireID":"fallhaven_pixies",
                         "value":21
                     }
                 ]
             },
             {
                 "text":"They now want four bottles of mead. They sure are giving me the run around today!",
-                "nextPhraseID":"arensia_fae_14",
+                "nextPhraseID":"arensia_pixie_14",
                 "requires":[
                     {
                         "requireType":"questLatestProgress",
-                        "requireID":"fallhaven_fae",
+                        "requireID":"fallhaven_pixies",
                         "value":30
                     }
                 ]
             },
             {
                 "text":"They took the mead, but said they need something else.",
-                "nextPhraseID":"arensia_fae_28",
+                "nextPhraseID":"arensia_pixie_28",
                 "requires":[
                     {
                         "requireType":"questLatestProgress",
-                        "requireID":"fallhaven_fae",
+                        "requireID":"fallhaven_pixies",
                         "value":31
                     }
                 ]
             },
             {
                 "text":"They want a dozen wild flowers.",
-                "nextPhraseID":"arensia_fae_30",
+                "nextPhraseID":"arensia_pixie_30",
                 "requires":[
                     {
                         "requireType":"questLatestProgress",
-                        "requireID":"fallhaven_fae",
+                        "requireID":"fallhaven_pixies",
                         "value":40
                     }
                 ]
             },
             {
                 "text":"They took the wild flowers ...",
-                "nextPhraseID":"arensia_fae_18",
+                "nextPhraseID":"arensia_pixie_18",
                 "requires":[
                     {
                         "requireType":"questLatestProgress",
-                        "requireID":"fallhaven_fae",
+                        "requireID":"fallhaven_pixies",
                         "value":41
                     }
                 ]
             },
             {
                 "text":"The Pixies ask that you make a promise to never pick mushrooms from their fairy ring again.",
-                "nextPhraseID":"arensia_fae_19",
+                "nextPhraseID":"arensia_pixie_19",
                 "requires":[
                     {
                         "requireType":"questLatestProgress",
-                        "requireID":"fallhaven_fae",
+                        "requireID":"fallhaven_pixies",
                         "value":90
                     }
                 ]
             },
             {
                 "text":"I will take your ring to them at once!",
-                "nextPhraseID":"arensia_fae_32",
+                "nextPhraseID":"arensia_pixie_32",
                 "requires":[
                     {
                         "requireType":"questLatestProgress",
-                        "requireID":"fallhaven_fae",
+                        "requireID":"fallhaven_pixies",
                         "value":91
                     }
                 ]
             },
             {
                 "text":"I gave them your ring, they are busy discussing it now.",
-                "nextPhraseID":"arensia_fae_32",
+                "nextPhraseID":"arensia_pixie_32",
                 "requires":[
                     {
                         "requireType":"questLatestProgress",
-                        "requireID":"fallhaven_fae",
+                        "requireID":"fallhaven_pixies",
                         "value":92
                     }
                 ]
@@ -417,17 +417,17 @@
         ]
     },
     {
-        "id":"arensia_fae_7",
+        "id":"arensia_pixie_7",
         "message":"Oh that is great news! If you need an axe, check with Jakrar, my father, over there.",
         "replies":[
             {
                 "text":"N",
-                "nextPhraseID":"arensia_fae_8"
+                "nextPhraseID":"arensia_pixie_8"
             }
         ]
     },
     {
-        "id":"arensia_fae_8",
+        "id":"arensia_pixie_8",
         "message":"Please keep me updated.",
         "replies":[
             {
@@ -437,7 +437,7 @@
         ]
     },
     {
-        "id":"arensia_fae_9",
+        "id":"arensia_pixie_9",
         "message":"Thank you so much for helping me with the Pixies!",
         "replies":[
             {
@@ -447,17 +447,17 @@
         ]
     },
     {
-        "id":"arensia_fae_10",
+        "id":"arensia_pixie_10",
         "message":"Okay thanks for letting me know. Don't let them wait too long.",
         "replies":[
             {
                 "text":"N",
-                "nextPhraseID":"arensia_fae_8"
+                "nextPhraseID":"arensia_pixie_8"
             }
         ]
     },
     {
-        "id":"arensia_fae_11",
+        "id":"arensia_pixie_11",
         "message":"Oh wonderful! An odd request nonetheless.",
         "replies":[
             {
@@ -466,12 +466,12 @@
             },
             {
                 "text":"Where can I find apples and strawberries?",
-                "nextPhraseID":"arensia_fae_12"
+                "nextPhraseID":"arensia_pixie_12"
             }
         ]
     },
     {
-        "id":"arensia_fae_12",
+        "id":"arensia_pixie_12",
         "message":"You can buy apples at the Fallhaven tavern. Not sure about strawberries though.",
         "replies":[
             {
@@ -481,51 +481,51 @@
         ]
     },
     {
-        "id":"arensia_fae_13",
+        "id":"arensia_pixie_13",
         "message":"Oh no, they sound very difficult to deal with. I hope it gets better.",
         "replies":[
             {
                 "text":"Thank you.",
-                "nextPhraseID":"arensia_fae_8"
+                "nextPhraseID":"arensia_pixie_8"
             }
         ]
     },
     {
-        "id":"arensia_fae_14",
+        "id":"arensia_pixie_14",
         "message":"I am so sorry.",
         "replies":[
             {
                 "text":"N",
-                "nextPhraseID":"arensia_fae_8"
+                "nextPhraseID":"arensia_pixie_8"
             }
         ]
     },
     {
-        "id":"arensia_fae_15",
+        "id":"arensia_pixie_15",
         "message":"You have done so much for me already. I will understand if you want to quit, I won't blame you.",
         "replies":[
             {
                 "text":"I want to see this through.",
-                "nextPhraseID":"arensia_fae_16"
+                "nextPhraseID":"arensia_pixie_16"
             },
             {
                 "text":"The Pixies are driving me insane. I thought about this, and I can't help you any more. I am sorry.",
-                "nextPhraseID":"arensia_fae_29"
+                "nextPhraseID":"arensia_pixie_29"
             }
         ]
     },
     {
-        "id":"arensia_fae_16",
+        "id":"arensia_pixie_16",
         "message":"You are too kind!",
         "replies":[
             {
                 "text":"N",
-                "nextPhraseID":"arensia_fae_8"
+                "nextPhraseID":"arensia_pixie_8"
             }
         ]
     },
     {
-        "id":"arensia_fae_17",
+        "id":"arensia_pixie_17",
         "message":"I appreciate your help either way.",
         "replies":[
             {
@@ -536,43 +536,43 @@
         "rewards":[
             {
                 "rewardType":"questProgress",
-                "rewardID":"fallhaven_fae",
+                "rewardID":"fallhaven_pixies",
                 "value":101
             }
         ]
     },
     {
-        "id":"arensia_fae_18",
+        "id":"arensia_pixie_18",
         "message":"Oh please tell me that is the end of it?",
         "replies":[
             {
                 "text":"I'm afraid not, they still want more.",
-                "nextPhraseID":"arensia_fae_15"
+                "nextPhraseID":"arensia_pixie_15"
             }
         ]
     },
     {
-        "id":"arensia_fae_19",
+        "id":"arensia_pixie_19",
         "message":"Of course! anything!",
         "replies":[
             {
                 "text":"You have to make this promise to a piece of jewellery, which I will take back to them.",
-                "nextPhraseID":"arensia_fae_20"
+                "nextPhraseID":"arensia_pixie_20"
             }
         ]
     },
     {
-        "id":"arensia_fae_20",
+        "id":"arensia_pixie_20",
         "message":"I know, I will promise on this ring I'm wearing. It belonged to my mother, and it's dear to me, but I will do anything to stop the Pixies!",
         "replies":[
             {
                 "text":"I hope this works.",
-                "nextPhraseID":"arensia_fae_21"
+                "nextPhraseID":"arensia_pixie_21"
             }
         ]
     },
     {
-        "id":"arensia_fae_21",
+        "id":"arensia_pixie_21",
         "message":"I made a promise to the ring, here take it to the Pixies!",
         "replies":[
             {
@@ -588,134 +588,134 @@
             },
             {
                 "rewardType":"questProgress",
-                "rewardID":"fallhaven_fae",
+                "rewardID":"fallhaven_pixies",
                 "value":91
             }
         ]
     },
     {
-        "id":"arensia_fae_22",
+        "id":"arensia_pixie_22",
         "message":"There is nothing else to be done, and I will have to live with the Pixies tormenting me until my last day."
     },
     {
-        "id":"arensia_fae_23",
+        "id":"arensia_pixie_23",
         "message":"So ... what did they say?",
         "replies":[
             {
                 "text":"The Pixies finally agreed to leave you in peace.",
-                "nextPhraseID":"arensia_fae_24"
+                "nextPhraseID":"arensia_pixie_24"
             }
         ]
     },
     {
-        "id":"arensia_fae_24",
+        "id":"arensia_pixie_24",
         "message":"I cannot thank you enough, $playername. You have saved my sanity!",
         "replies":[
             {
                 "text":"Unfortunately they kept your mother's ring (Lie).",
-                "nextPhraseID":"arensia_fae_25"
+                "nextPhraseID":"arensia_pixie_25"
             },
             {
                 "text":"They used their magic on your ring, and asked that I give it back to you.",
-                "nextPhraseID":"arensia_fae_26"
+                "nextPhraseID":"arensia_pixie_26"
             }
         ],
         "rewards":[
             {
                 "rewardType":"questProgress",
-                "rewardID":"fallhaven_fae",
+                "rewardID":"fallhaven_pixies",
                 "value":100
             }
         ]
     },
     {
-        "id":"arensia_fae_25",
+        "id":"arensia_pixie_25",
         "message":"That is okay. I did not expect to get it back.",
         "replies":[
             {
                 "text":"N",
-                "nextPhraseID":"arensia_fae_9"
+                "nextPhraseID":"arensia_pixie_9"
             }
         ],
         "rewards":[
             {
                 "rewardType":"questProgress",
-                "rewardID":"fallhaven_fae",
+                "rewardID":"fallhaven_pixies",
                 "value":102
             }
         ]
     },
     {
-        "id":"arensia_fae_26",
+        "id":"arensia_pixie_26",
         "message":"After everything you have done for me ... I want you to keep it. Please, I insist!",
         "replies":[
             {
                 "text":"That is very generous, I won't forget it.",
-                "nextPhraseID":"arensia_fae_9"
+                "nextPhraseID":"arensia_pixie_9"
             }
         ],
         "rewards":[
             {
                 "rewardType":"questProgress",
-                "rewardID":"fallhaven_fae",
+                "rewardID":"fallhaven_pixies",
                 "value":103
             }
         ]
     },
     {
-        "id":"arensia_fae_27",
+        "id":"arensia_pixie_27",
         "message":"I can't say that I have noticed it. A few days ago I was picking mushrooms to the west of here."
     },
     {
-        "id":"arensia_fae_28",
+        "id":"arensia_pixie_28",
         "message":"They sure are a greedy bunch!",
         "replies":[
             {
                 "text":"N",
-                "nextPhraseID":"arensia_fae_8"
+                "nextPhraseID":"arensia_pixie_8"
             }
         ]
     },
     {
-        "id":"arensia_fae_29",
+        "id":"arensia_pixie_29",
         "message":"Are you sure that you want to quit?",
         "replies":[
             {
                 "text":"Yes, I want to quit.",
-                "nextPhraseID":"arensia_fae_17"
+                "nextPhraseID":"arensia_pixie_17"
             },
             {
                 "text":"On second thought, I want to see this through.",
-                "nextPhraseID":"arensia_fae_16"
+                "nextPhraseID":"arensia_pixie_16"
             }
         ]
     },
     {
-        "id":"arensia_fae_30",
+        "id":"arensia_pixie_30",
         "message":"How can I help?",
         "replies":[
             {
                 "text":"Where can I find wild flowers?",
-                "nextPhraseID":"arensia_fae_31"
+                "nextPhraseID":"arensia_pixie_31"
             },
             {
                 "text":"Will this ever end?",
-                "nextPhraseID":"arensia_fae_15"
+                "nextPhraseID":"arensia_pixie_15"
             }
         ]
     },
     {
-        "id":"arensia_fae_31",
+        "id":"arensia_pixie_31",
         "message":"Look to the south, and southeast from here. You will see the wild flowers growing next to the trees. ",
         "replies":[
             {
                 "text":"N",
-                "nextPhraseID":"arensia_fae_30"
+                "nextPhraseID":"arensia_pixie_30"
             }
         ]
     },
     {
-        "id":"arensia_fae_32",
+        "id":"arensia_pixie_32",
         "message":"Oh I hope they accept it, and I hope they are done with their silly errands.",
         "replies":[
             {
@@ -725,7 +725,7 @@
         ]
     },
     {
-        "id":"arensia_fae_33",
+        "id":"arensia_pixie_33",
         "message":"Rigmor lives here in Fallhaven, just go north past the tavern.",
         "replies":[
             {
@@ -735,27 +735,27 @@
         ]
     },
     {
-        "id":"arensia_fae_34",
+        "id":"arensia_pixie_34",
         "message":"They have, I no longer wake up with fairy-locks.",
         "replies":[
             {
                 "text":"I am happy to hear that.",
-                "nextPhraseID":"arensia_fae_35",
+                "nextPhraseID":"arensia_pixie_35",
                 "requires":[
                     {
                         "requireType":"questProgress",
-                        "requireID":"fallhaven_fae",
+                        "requireID":"fallhaven_pixies",
                         "value":102
                     }
                 ]
             },
             {
                 "text":"I am happy to hear that.",
-                "nextPhraseID":"arensia_fae_36",
+                "nextPhraseID":"arensia_pixie_36",
                 "requires":[
                     {
                         "requireType":"questProgress",
-                        "requireID":"fallhaven_fae",
+                        "requireID":"fallhaven_pixies",
                         "value":103
                     }
                 ]
@@ -763,7 +763,7 @@
         ]
     },
     {
-        "id":"arensia_fae_35",
+        "id":"arensia_pixie_35",
         "message":"But I see you are wearing the ring I gave them. You told me they kept it, which can only mean that you lied to me. You are just a common thief. Shame on you.",
         "replies":[
             {
@@ -773,7 +773,7 @@
         ]
     },
     {
-        "id":"arensia_fae_36",
+        "id":"arensia_pixie_36",
         "message":"I see you are wearing my magical ring. I hope it serves you well, you derserved it.",
         "replies":[
             {
@@ -783,7 +783,7 @@
         ]
     },
     {
-        "id":"bela_fae_strawberries",
+        "id":"bela_pixie_strawberries",
         "message":"I don't, but I believe the potion merchant here in Fallhaven has some.",
         "replies":[
             {
@@ -793,26 +793,26 @@
         ]
     },
     {
-        "id":"rigmor_fae_1",
+        "id":"rigmor_pixie_1",
         "message":"I take it you spoke to Arensia.",
         "replies":[
             {
                 "text":"N",
-                "nextPhraseID":"rigmor_fae_6"
+                "nextPhraseID":"rigmor_pixie_6"
             }
         ]
     },
     {
-        "id":"rigmor_fae_2",
+        "id":"rigmor_pixie_2",
         "message":"What do you want to know?",
         "replies":[
             {
                 "text":"What are Pixies?",
-                "nextPhraseID":"rigmor_fae_3"
+                "nextPhraseID":"rigmor_pixie_3"
             },
             {
                 "text":"Where can I find the Pixies?",
-                "nextPhraseID":"rigmor_fae_5"
+                "nextPhraseID":"rigmor_pixie_5"
             },
             {
                 "text":"Thank you. I really need to go now.",
@@ -821,230 +821,230 @@
         ]
     },
     {
-        "id":"rigmor_fae_3",
+        "id":"rigmor_pixie_3",
         "message":"Pixies are small magical beings that live in the forest. They have wings and live in the trees.",
         "replies":[
             {
                 "text":"N",
-                "nextPhraseID":"rigmor_fae_4"
+                "nextPhraseID":"rigmor_pixie_4"
             }
         ]
     },
     {
-        "id":"rigmor_fae_4",
+        "id":"rigmor_pixie_4",
         "message":"They are known to be very mischievous, and love causing trouble. They probably eat too many fermented berries, if you ask me.",
         "replies":[
             {
                 "text":"N",
-                "nextPhraseID":"rigmor_fae_2"
+                "nextPhraseID":"rigmor_pixie_2"
             }
         ]
     },
     {
-        "id":"rigmor_fae_5",
+        "id":"rigmor_pixie_5",
         "message":"Pixies gather near fairy rings, which look like large circles of mushroom growth.",
         "replies":[
             {
                 "text":"N",
-                "nextPhraseID":"rigmor_fae_2"
+                "nextPhraseID":"rigmor_pixie_2"
             }
         ],
         "rewards":[
             {
                 "rewardType":"questProgress",
-                "rewardID":"fallhaven_fae",
+                "rewardID":"fallhaven_pixies",
                 "value":10
             }
         ]
     },
     {
-        "id":"rigmor_fae_6",
+        "id":"rigmor_pixie_6",
         "message":"Poor Arensia, she looks exhausted and her hair is absolutely tousled.",
         "replies":[
             {
                 "text":"N",
-                "nextPhraseID":"rigmor_fae_2"
+                "nextPhraseID":"rigmor_pixie_2"
             }
         ]
     },
     {
-        "id":"fae_fallhaven_select",
+        "id":"pixie_fallhaven_select",
         "replies":[
             {
-                "nextPhraseID":"fae_fallhaven_1",
+                "nextPhraseID":"pixie_fallhaven_1",
                 "requires":[
                     {
                         "requireType":"questLatestProgress",
-                        "requireID":"fallhaven_fae",
+                        "requireID":"fallhaven_pixies",
                         "value":10
                     }
                 ]
             },
             {
-                "nextPhraseID":"fae_fallhaven_3",
+                "nextPhraseID":"pixie_fallhaven_3",
                 "requires":[
                     {
                         "requireType":"questProgress",
-                        "requireID":"fallhaven_fae",
+                        "requireID":"fallhaven_pixies",
                         "value":12,
                         "negate":true
                     }
                 ]
             },
             {
-                "nextPhraseID":"fae_fallhaven_6",
+                "nextPhraseID":"pixie_fallhaven_6",
                 "requires":[
                     {
                         "requireType":"questLatestProgress",
-                        "requireID":"fallhaven_fae",
+                        "requireID":"fallhaven_pixies",
                         "value":12
                     }
                 ]
             },
             {
-                "nextPhraseID":"fae_fallhaven_10",
+                "nextPhraseID":"pixie_fallhaven_10",
                 "requires":[
                     {
                         "requireType":"timerElapsed",
-                        "requireID":"fae_fallhaven_timer",
+                        "requireID":"pixie_fallhaven_timer",
                         "value":5,
                         "negate":true
                     }
                 ]
             },
             {
-                "nextPhraseID":"fae_fallhaven_11",
+                "nextPhraseID":"pixie_fallhaven_11",
                 "requires":[
                     {
                         "requireType":"questLatestProgress",
-                        "requireID":"fallhaven_fae",
+                        "requireID":"fallhaven_pixies",
                         "value":13
                     }
                 ]
             },
             {
-                "nextPhraseID":"fae_fallhaven_14",
+                "nextPhraseID":"pixie_fallhaven_14",
                 "requires":[
                     {
                         "requireType":"questLatestProgress",
-                        "requireID":"fallhaven_fae",
+                        "requireID":"fallhaven_pixies",
                         "value":20
                     }
                 ]
             },
             {
-                "nextPhraseID":"fae_fallhaven_17",
+                "nextPhraseID":"pixie_fallhaven_17",
                 "requires":[
                     {
                         "requireType":"questLatestProgress",
-                        "requireID":"fallhaven_fae",
+                        "requireID":"fallhaven_pixies",
                         "value":21
                     }
                 ]
             },
             {
-                "nextPhraseID":"fae_fallhaven_18",
+                "nextPhraseID":"pixie_fallhaven_18",
                 "requires":[
                     {
                         "requireType":"questLatestProgress",
-                        "requireID":"fallhaven_fae",
+                        "requireID":"fallhaven_pixies",
                         "value":30
                     }
                 ]
             },
             {
-                "nextPhraseID":"fae_fallhaven_22",
+                "nextPhraseID":"pixie_fallhaven_22",
                 "requires":[
                     {
                         "requireType":"questLatestProgress",
-                        "requireID":"fallhaven_fae",
+                        "requireID":"fallhaven_pixies",
                         "value":31,
                         "negate":false
                     }
                 ]
             },
             {
-                "nextPhraseID":"fae_fallhaven_23",
+                "nextPhraseID":"pixie_fallhaven_23",
                 "requires":[
                     {
                         "requireType":"questLatestProgress",
-                        "requireID":"fallhaven_fae",
+                        "requireID":"fallhaven_pixies",
                         "value":40
                     }
                 ]
             },
             {
-                "nextPhraseID":"fae_fallhaven_26",
+                "nextPhraseID":"pixie_fallhaven_26",
                 "requires":[
                     {
                         "requireType":"questLatestProgress",
-                        "requireID":"fallhaven_fae",
+                        "requireID":"fallhaven_pixies",
                         "value":41
                     }
                 ]
             },
             {
-                "nextPhraseID":"fae_fallhaven_31",
+                "nextPhraseID":"pixie_fallhaven_31",
                 "requires":[
                     {
                         "requireType":"questLatestProgress",
-                        "requireID":"fallhaven_fae",
+                        "requireID":"fallhaven_pixies",
                         "value":90
                     }
                 ]
             },
             {
-                "nextPhraseID":"fae_fallhaven_31",
+                "nextPhraseID":"pixie_fallhaven_31",
                 "requires":[
                     {
                         "requireType":"questLatestProgress",
-                        "requireID":"fallhaven_fae",
+                        "requireID":"fallhaven_pixies",
                         "value":91
                     }
                 ]
             },
             {
-                "nextPhraseID":"fae_fallhaven_35",
+                "nextPhraseID":"pixie_fallhaven_35",
                 "requires":[
                     {
                         "requireType":"questLatestProgress",
-                        "requireID":"fallhaven_fae",
+                        "requireID":"fallhaven_pixies",
                         "value":92
                     }
                 ]
             },
             {
-                "nextPhraseID":"fae_fallhaven_38"
+                "nextPhraseID":"pixie_fallhaven_38"
             }
         ]
     },
     {
-        "id":"fae_fallhaven_1",
+        "id":"pixie_fallhaven_1",
         "message":"Hello there, stranger!",
         "replies":[
             {
                 "text":"Oh, hi. My name is $playername. Who are you?",
-                "nextPhraseID":"fae_fallhaven_2"
+                "nextPhraseID":"pixie_fallhaven_2"
             }
         ]
     },
     {
-        "id":"fae_fallhaven_2",
+        "id":"pixie_fallhaven_2",
         "message":"Well met, $playername. I won't tell you my name, it is forbidden for otherkinds to know our names.",
         "replies":[
             {
                 "text":"N",
-                "nextPhraseID":"fae_fallhaven_3"
+                "nextPhraseID":"pixie_fallhaven_3"
             }
         ]
     },
     {
-        "id":"fae_fallhaven_3",
+        "id":"pixie_fallhaven_3",
         "message":"Did you bring us a gift?",
         "replies":[
             {
                 "text":"Yes, here are two red apples and two strawberries.",
-                "nextPhraseID":"fae_fallhaven_5",
+                "nextPhraseID":"pixie_fallhaven_5",
                 "requires":[
                     {
                         "requireType":"inventoryRemove",
@@ -1060,12 +1060,12 @@
             },
             {
                 "text":"I did not, sorry.",
-                "nextPhraseID":"fae_fallhaven_4"
+                "nextPhraseID":"pixie_fallhaven_4"
             }
         ]
     },
     {
-        "id":"fae_fallhaven_4",
+        "id":"pixie_fallhaven_4",
         "message":"Bring us two red apples and two strawberries. Since you came without a gift, we cast on you a mystical Pixie spell!",
         "replies":[
             {
@@ -1076,7 +1076,7 @@
         "rewards":[
             {
                 "rewardType":"questProgress",
-                "rewardID":"fallhaven_fae",
+                "rewardID":"fallhaven_pixies",
                 "value":11
             },
             {
@@ -1087,48 +1087,48 @@
         ]
     },
     {
-        "id":"fae_fallhaven_5",
+        "id":"pixie_fallhaven_5",
         "message":"Wonderful! These strawberries are so sweet. You may stay!",
         "rewards":[
             {
                 "rewardType":"questProgress",
-                "rewardID":"fallhaven_fae",
+                "rewardID":"fallhaven_pixies",
                 "value":12
             }
         ]
     },
     {
-        "id":"fae_fallhaven_6",
+        "id":"pixie_fallhaven_6",
         "message":"Hi $playername! Want to play with us?",
         "replies":[
             {
                 "text":"I'm here on behalf of Arensia. She is very upset.",
-                "nextPhraseID":"fae_fallhaven_7"
+                "nextPhraseID":"pixie_fallhaven_7"
             }
         ]
     },
     {
-        "id":"fae_fallhaven_7",
+        "id":"pixie_fallhaven_7",
         "message":"She should be sorry! She stole our sacred mushrooms from our fairy ring.",
         "replies":[
             {
                 "text":"I'm sure she did not mean to steal them. She was probably just gathering mushrooms for a stew.",
-                "nextPhraseID":"fae_fallhaven_8"
+                "nextPhraseID":"pixie_fallhaven_8"
             }
         ]
     },
     {
-        "id":"fae_fallhaven_8",
+        "id":"pixie_fallhaven_8",
         "message":"A stew? A STEW? That is unthinkable! She must be punished.",
         "replies":[
             {
                 "text":"Don't be mad, I am just trying to help. Is there anything I can do to make this right?",
-                "nextPhraseID":"fae_fallhaven_9"
+                "nextPhraseID":"pixie_fallhaven_9"
             }
         ]
     },
     {
-        "id":"fae_fallhaven_9",
+        "id":"pixie_fallhaven_9",
         "message":"Hmmm, let us discuss this amongst ourselves. Can you give us a minute alone?",
         "replies":[
             {
@@ -1139,95 +1139,95 @@
         "rewards":[
             {
                 "rewardType":"questProgress",
-                "rewardID":"fallhaven_fae",
+                "rewardID":"fallhaven_pixies",
                 "value":13
             },
             {
                 "rewardType":"createTimer",
-                "rewardID":"fae_fallhaven_timer"
+                "rewardID":"pixie_fallhaven_timer"
             }
         ]
     },
     {
-        "id":"fae_fallhaven_10",
+        "id":"pixie_fallhaven_10",
         "message":"We are busy discussing the matter. Please wait a little bit longer."
     },
     {
-        "id":"fae_fallhaven_11",
+        "id":"pixie_fallhaven_11",
         "message":"We have decided to entertain your request.",
         "replies":[
             {
                 "text":"Thank you, Arensia will be happy to hear that!",
-                "nextPhraseID":"fae_fallhaven_12"
+                "nextPhraseID":"pixie_fallhaven_12"
             }
         ]
     },
     {
-        "id":"fae_fallhaven_12",
+        "id":"pixie_fallhaven_12",
         "message":"But you have to do something for us first *giggle*.",
         "replies":[
             {
                 "text":"Oh please just let Arensia be, she meant no ill will.",
-                "nextPhraseID":"fae_fallhaven_13"
+                "nextPhraseID":"pixie_fallhaven_13"
             },
             {
                 "text":"Please just forgive her mistake. There is no need to prolong her suffering.",
-                "nextPhraseID":"fae_fallhaven_13"
+                "nextPhraseID":"pixie_fallhaven_13"
             },
             {
                 "text":"Yes of course. What do you need?",
-                "nextPhraseID":"fae_fallhaven_14"
+                "nextPhraseID":"pixie_fallhaven_14"
             }
         ]
     },
     {
-        "id":"fae_fallhaven_13",
+        "id":"pixie_fallhaven_13",
         "message":"Suit yourself. If you won't help us, we won't help Arensia. Goodbye!"
     },
     {
-        "id":"fae_fallhaven_14",
+        "id":"pixie_fallhaven_14",
         "message":"Please chop down this gnarly old tree inside our fairy circle. Can you do that for us? *giggle*",
         "replies":[
             {
                 "text":"No, I am not willing to do that.",
-                "nextPhraseID":"fae_fallhaven_13"
+                "nextPhraseID":"pixie_fallhaven_13"
             },
             {
                 "text":"Okay, I will chop it down.",
-                "nextPhraseID":"fae_fallhaven_39"
+                "nextPhraseID":"pixie_fallhaven_39"
             }
         ],
         "rewards":[
             {
                 "rewardType":"questProgress",
-                "rewardID":"fallhaven_fae",
+                "rewardID":"fallhaven_pixies",
                 "value":20
             }
         ]
     },
     {
-        "id":"fae_fallhaven_15",
+        "id":"pixie_fallhaven_15",
         "message":"Hmm, this must be the tree the Pixies want chopped down. I need to get an iron axe."
     },
     {
-        "id":"fae_fallhaven_16",
+        "id":"pixie_fallhaven_16",
         "message":"Hey wait! We changed our minds. We like that tree and want to keep it.",
-        "switchToNPC":"fae_fallhaven",
+        "switchToNPC":"pixie_fallhaven",
         "rewards":[
             {
                 "rewardType":"questProgress",
-                "rewardID":"fallhaven_fae",
+                "rewardID":"fallhaven_pixies",
                 "value":21
             }
         ]
     },
     {
-        "id":"fae_fallhaven_17",
+        "id":"pixie_fallhaven_17",
         "message":"We are having a celebration, please get us four bottles of mead. *giggle*",
         "replies":[
             {
                 "text":"I don't think so. Your demands are getting ridiculous.",
-                "nextPhraseID":"fae_fallhaven_13"
+                "nextPhraseID":"pixie_fallhaven_13"
             },
             {
                 "text":"Okay, fine. I will get you the mead. But you better not change your mind again.",
@@ -1237,22 +1237,22 @@
         "rewards":[
             {
                 "rewardType":"questProgress",
-                "rewardID":"fallhaven_fae",
+                "rewardID":"fallhaven_pixies",
                 "value":30
             }
         ]
     },
     {
-        "id":"fae_fallhaven_18",
+        "id":"pixie_fallhaven_18",
         "message":"Do you have our mead?",
         "replies":[
             {
                 "text":"No, sorry.",
-                "nextPhraseID":"fae_fallhaven_13"
+                "nextPhraseID":"pixie_fallhaven_13"
             },
             {
                 "text":"Yes, here is your mead.",
-                "nextPhraseID":"fae_fallhaven_19",
+                "nextPhraseID":"pixie_fallhaven_19",
                 "requires":[
                     {
                         "requireType":"inventoryRemove",
@@ -1264,53 +1264,53 @@
         ]
     },
     {
-        "id":"fae_fallhaven_19",
+        "id":"pixie_fallhaven_19",
         "message":"Wonderful!",
         "replies":[
             {
                 "text":"Will you leave Arensia alone now?",
-                "nextPhraseID":"fae_fallhaven_20"
+                "nextPhraseID":"pixie_fallhaven_20"
             }
         ],
         "rewards":[
             {
                 "rewardType":"questProgress",
-                "rewardID":"fallhaven_fae",
+                "rewardID":"fallhaven_pixies",
                 "value":31
             }
         ]
     },
     {
-        "id":"fae_fallhaven_20",
+        "id":"pixie_fallhaven_20",
         "message":"Yes, of course we will.",
         "replies":[
             {
                 "text":"Arensia wil be very happy to hear this.",
-                "nextPhraseID":"fae_fallhaven_21"
+                "nextPhraseID":"pixie_fallhaven_21"
             }
         ]
     },
     {
-        "id":"fae_fallhaven_21",
+        "id":"pixie_fallhaven_21",
         "message":"We just need you to do one more thing for us ...",
         "replies":[
             {
                 "text":"More? No I don't think so. This is absurd.",
-                "nextPhraseID":"fae_fallhaven_13"
+                "nextPhraseID":"pixie_fallhaven_13"
             },
             {
                 "text":"What do you want now?",
-                "nextPhraseID":"fae_fallhaven_25"
+                "nextPhraseID":"pixie_fallhaven_25"
             }
         ]
     },
     {
-        "id":"fae_fallhaven_22",
+        "id":"pixie_fallhaven_22",
         "message":"For our celebrations, we would like ten wild flowers.",
         "replies":[
             {
                 "text":"This is getting silly. I don't want to collect flowers for you.",
-                "nextPhraseID":"fae_fallhaven_13"
+                "nextPhraseID":"pixie_fallhaven_13"
             },
             {
                 "text":"Okay fine. But this better be the last thing.",
@@ -1320,22 +1320,22 @@
         "rewards":[
             {
                 "rewardType":"questProgress",
-                "rewardID":"fallhaven_fae",
+                "rewardID":"fallhaven_pixies",
                 "value":40
             }
         ]
     },
     {
-        "id":"fae_fallhaven_23",
+        "id":"pixie_fallhaven_23",
         "message":"Do you have our wild flowers?",
         "replies":[
             {
                 "text":"No I don't.",
-                "nextPhraseID":"fae_fallhaven_13"
+                "nextPhraseID":"pixie_fallhaven_13"
             },
             {
                 "text":"Yes, here are your flowers.",
-                "nextPhraseID":"fae_fallhaven_24",
+                "nextPhraseID":"pixie_fallhaven_24",
                 "requires":[
                     {
                         "requireType":"inventoryRemove",
@@ -1347,98 +1347,98 @@
         ]
     },
     {
-        "id":"fae_fallhaven_24",
+        "id":"pixie_fallhaven_24",
         "message":"These are perfect. Thank you!",
         "replies":[
             {
                 "text":"Is that everything? Will you leave Arensia be?",
-                "nextPhraseID":"fae_fallhaven_20"
+                "nextPhraseID":"pixie_fallhaven_20"
             }
         ],
         "rewards":[
             {
                 "rewardType":"questProgress",
-                "rewardID":"fallhaven_fae",
+                "rewardID":"fallhaven_pixies",
                 "value":41
             }
         ]
     },
     {
-        "id":"fae_fallhaven_25",
+        "id":"pixie_fallhaven_25",
         "message":"Give us a minute to think about it.",
         "rewards":[
             {
                 "rewardType":"createTimer",
-                "rewardID":"fae_fallhaven_timer"
+                "rewardID":"pixie_fallhaven_timer"
             }
         ]
     },
     {
-        "id":"fae_fallhaven_26",
+        "id":"pixie_fallhaven_26",
         "message":"Okay so after carefully considering your request ...",
         "replies":[
             {
                 "text":"Yes?",
-                "nextPhraseID":"fae_fallhaven_27"
+                "nextPhraseID":"pixie_fallhaven_27"
             }
         ]
     },
     {
-        "id":"fae_fallhaven_27",
+        "id":"pixie_fallhaven_27",
         "message":"We have decided what would make this right ...",
         "replies":[
             {
                 "text":"Okay?",
-                "nextPhraseID":"fae_fallhaven_28"
+                "nextPhraseID":"pixie_fallhaven_28"
             }
         ]
     },
     {
-        "id":"fae_fallhaven_28",
+        "id":"pixie_fallhaven_28",
         "message":"We want Arensia to promise not to pick our mushrooms again. And we want proof!",
         "replies":[
             {
                 "text":"I can ask her, but how can I provide proof?",
-                "nextPhraseID":"fae_fallhaven_29"
+                "nextPhraseID":"pixie_fallhaven_29"
             }
         ],
         "rewards":[
             {
                 "rewardType":"questProgress",
-                "rewardID":"fallhaven_fae",
+                "rewardID":"fallhaven_pixies",
                 "value":90
             }
         ]
     },
     {
-        "id":"fae_fallhaven_29",
+        "id":"pixie_fallhaven_29",
         "message":"She must give a piece of jewelry as proof of her promise. Her word would be bound to it.",
         "replies":[
             {
                 "text":"This sounds very silly.",
-                "nextPhraseID":"fae_fallhaven_13"
+                "nextPhraseID":"pixie_fallhaven_13"
             },
             {
                 "text":"Very well. I will go talk to Arensia.",
-                "nextPhraseID":"fae_fallhaven_30"
+                "nextPhraseID":"pixie_fallhaven_30"
             }
         ]
     },
     {
-        "id":"fae_fallhaven_30",
+        "id":"pixie_fallhaven_30",
         "message":"Good. And remember, she has to make her promise to the jewelry."
     },
     {
-        "id":"fae_fallhaven_31",
+        "id":"pixie_fallhaven_31",
         "message":"Did you bring us Arensia's promise?",
         "replies":[
             {
                 "text":"No, I have not.",
-                "nextPhraseID":"fae_fallhaven_13"
+                "nextPhraseID":"pixie_fallhaven_13"
             },
             {
                 "text":"Yes, here is her promise ring.",
-                "nextPhraseID":"fae_fallhaven_32",
+                "nextPhraseID":"pixie_fallhaven_32",
                 "requires":[
                     {
                         "requireType":"inventoryRemove",
@@ -1450,65 +1450,65 @@
         ]
     },
     {
-        "id":"fae_fallhaven_32",
+        "id":"pixie_fallhaven_32",
         "message":"This will do just fine, thank you $playername.",
         "replies":[
             {
                 "text":"I hope this settles the matter?",
-                "nextPhraseID":"fae_fallhaven_33"
+                "nextPhraseID":"pixie_fallhaven_33"
             }
         ],
         "rewards":[
             {
                 "rewardType":"questProgress",
-                "rewardID":"fallhaven_fae",
+                "rewardID":"fallhaven_pixies",
                 "value":92
             }
         ]
     },
     {
-        "id":"fae_fallhaven_33",
+        "id":"pixie_fallhaven_33",
         "message":"Well, I think you know what I will say next ...",
         "replies":[
             {
                 "text":"Oh no, not again!",
-                "nextPhraseID":"fae_fallhaven_21"
+                "nextPhraseID":"pixie_fallhaven_21"
             }
         ]
     },
     {
-        "id":"fae_fallhaven_34",
+        "id":"pixie_fallhaven_34",
         "message":""
     },
     {
-        "id":"fae_fallhaven_35",
+        "id":"pixie_fallhaven_35",
         "message":"We have discussed this matter and made a final decision ...",
         "replies":[
             {
                 "text":"Okay, I hope this turns out well.",
-                "nextPhraseID":"fae_fallhaven_36"
+                "nextPhraseID":"pixie_fallhaven_36"
             }
         ]
     },
     {
-        "id":"fae_fallhaven_36",
+        "id":"pixie_fallhaven_36",
         "message":"Please tell Arensia that we have accepted her promise. We will no longer taunt her at night.",
         "replies":[
             {
-                "text":"Oh how wonderful. Thank you forest Faes!",
-                "nextPhraseID":"fae_fallhaven_37"
+                "text":"Oh how wonderful. Thank you forest pixies!",
+                "nextPhraseID":"pixie_fallhaven_37"
             }
         ],
         "rewards":[
             {
                 "rewardType":"questProgress",
-                "rewardID":"fallhaven_fae",
+                "rewardID":"fallhaven_pixies",
                 "value":99
             }
         ]
     },
     {
-        "id":"fae_fallhaven_37",
+        "id":"pixie_fallhaven_37",
         "message":"However, we have no need for a human ring. We embued it with our magical powers. Please take this ring back to Arensia.",
         "replies":[
             {
@@ -1525,11 +1525,11 @@
         ]
     },
     {
-        "id":"fae_fallhaven_38",
+        "id":"pixie_fallhaven_38",
         "message":"Hello $playername. We hope you are staying out of trouble."
     },
     {
-        "id":"fae_fallhaven_39",
+        "id":"pixie_fallhaven_39",
         "message":"It is important that you use an iron axe. That tree is cursed, and only an iron axe will work.",
         "replies":[
             {
