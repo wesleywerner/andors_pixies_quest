@@ -29,7 +29,7 @@
                 "min":0,
                 "max":0
             },
-            "increaseMaxHP":4,
+            "increaseMaxHP":2,
             "increaseMoveCost":0,
             "increaseAttackChance":0,
             "increaseBlockChance":0
