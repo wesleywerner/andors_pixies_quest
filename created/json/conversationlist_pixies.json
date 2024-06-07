@@ -1222,7 +1222,14 @@
     },
     {
         "id":"pixie_fallhaven_13",
-        "message":"Suit yourself. If you won't help us, we won't help Arensia. Goodbye!"
+        "message":"Suit yourself. If you won't help us, we won't help Arensia. Goodbye!",
+        "rewards":[
+            {
+                "rewardType":"actorCondition",
+                "rewardID":"fatigue_minor",
+                "value":6
+            }
+        ]
     },
     {
         "id":"pixie_fallhaven_14",
