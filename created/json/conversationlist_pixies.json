@@ -947,7 +947,7 @@
                     {
                         "requireType":"timerElapsed",
                         "requireID":"pixie_fallhaven_timer",
-                        "value":5,
+                        "value":2,
                         "negate":true
                     }
                 ]
