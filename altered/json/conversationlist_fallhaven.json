@@ -8,10 +8,6 @@
                 "nextPhraseID":"rigmor_1"
             },
             {
-                "text":"I really need to go.",
-                "nextPhraseID":"rigmor_leave_select"
-            },
-            {
                 "text":"Can you tell me about the Pixies?",
                 "nextPhraseID":"rigmor_pixie_1",
                 "requires":[
@@ -21,6 +17,10 @@
                         "value":1
                     }
                 ]
+            },
+            {
+                "text":"I really need to go.",
+                "nextPhraseID":"rigmor_leave_select"
             }
         ]
     }

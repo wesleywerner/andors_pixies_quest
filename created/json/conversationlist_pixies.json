@@ -211,7 +211,7 @@
     },
     {
         "id":"arensia_pixie_2",
-        "message":"I am being taunted by naughty forest Pixies at night. At least that is what Rigmor tells me. They play with my hair while I sleep, and tangle it into fairy-lock knots. Every morning I wake up tired, and I spend an hour brushing out the knots. I don't know what to do!",
+        "message":"I am being taunted by naughty pixies at night. At least that is what Rigmor tells me. They play with my hair while I sleep, and tangle it into fairy-lock knots. Every morning I wake up tired, and I spend an hour brushing out the knots. I don't know what to do!",
         "replies":[
             {
                 "text":"I am sorry to hear that, but I cannot help you right now.",
@@ -266,7 +266,7 @@
                 ]
             },
             {
-                "text":"Not yet. I am still looking for their fairy ring. You wouldn't know where it is, perhaps?",
+                "text":"Not yet. I am still looking for their mushroom patch. You wouldn't know where it is, perhaps?",
                 "nextPhraseID":"arensia_pixie_27",
                 "requires":[
                     {
@@ -277,7 +277,7 @@
                 ]
             },
             {
-                "text":"I did! They asked for a gift of apples and strawberries before I can talk to them.",
+                "text":"I did, they asked that I bring them a gift of apples and strawberries.",
                 "nextPhraseID":"arensia_pixie_11",
                 "requires":[
                     {
@@ -696,7 +696,43 @@
         "replies":[
             {
                 "text":"Where can I find wild flowers?",
-                "nextPhraseID":"arensia_pixie_31"
+                "nextPhraseID":"arensia_pixie_31",
+                "requires":[
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"wild_flower",
+                        "value":10,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "text":"I found some wild flowers, I just need a few more.",
+                "nextPhraseID":"arensia_pixie_37",
+                "requires":[
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"wild_flower",
+                        "value":1
+                    },
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"wild_flower",
+                        "value":10,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "text":"I found ten wild flowers. I will take them to the pixies.",
+                "nextPhraseID":"arensia_pixie_37",
+                "requires":[
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"wild_flower",
+                        "value":10
+                    }
+                ]
             },
             {
                 "text":"Will this ever end?",
@@ -726,7 +762,7 @@
     },
     {
         "id":"arensia_pixie_33",
-        "message":"Rigmor lives here in Fallhaven, just go north past the tavern.",
+        "message":"You should talk to Rigmor, as she knows more about the pixies than I do. She lives here in Fallhaven, just go north past the tavern.",
         "replies":[
             {
                 "text":"Okay.",
@@ -783,6 +819,10 @@
         ]
     },
     {
+        "id":"arensia_pixie_37",
+        "message":"Those flowers look perfect."
+    },
+    {
         "id":"bela_pixie_strawberries",
         "message":"I don't, but I believe the potion merchant here in Fallhaven has some.",
         "replies":[
@@ -807,11 +847,11 @@
         "message":"What do you want to know?",
         "replies":[
             {
-                "text":"What are Pixies?",
+                "text":"What do you know about pixies?",
                 "nextPhraseID":"rigmor_pixie_3"
             },
             {
-                "text":"Where can I find the Pixies?",
+                "text":"Where can I find pixies?",
                 "nextPhraseID":"rigmor_pixie_5"
             },
             {
@@ -822,7 +862,7 @@
     },
     {
         "id":"rigmor_pixie_3",
-        "message":"Pixies are small magical beings that live in the forest. They have wings and live in the trees.",
+        "message":"Pixies are small magical beings that are also known as the guardians of the forest, and they are known to take revenge on us when we intrude on them, or on nature.",
         "replies":[
             {
                 "text":"N",
@@ -832,7 +872,7 @@
     },
     {
         "id":"rigmor_pixie_4",
-        "message":"They are known to be very mischievous, and love causing trouble. They probably eat too many fermented berries, if you ask me.",
+        "message":"They are also very mischievous, and love causing trouble. They probably eat too many fermented berries, if you ask me.",
         "replies":[
             {
                 "text":"N",
@@ -842,7 +882,7 @@
     },
     {
         "id":"rigmor_pixie_5",
-        "message":"Pixies gather near fairy rings, which look like large circles of mushroom growth.",
+        "message":"Pixies gather near fairy rings. I suggest that you look for large mushroom patches in the woodland surrounding Fallhaven.",
         "replies":[
             {
                 "text":"N",
@@ -859,7 +899,7 @@
     },
     {
         "id":"rigmor_pixie_6",
-        "message":"Poor Arensia, she looks exhausted and her hair is absolutely tousled.",
+        "message":"The poor girl. She looks exhausted, and her hair is absolutely tousled. Will those pixies never leave her alone?",
         "replies":[
             {
                 "text":"N",
@@ -1109,7 +1149,7 @@
     },
     {
         "id":"pixie_fallhaven_7",
-        "message":"She should be sorry! She stole our sacred mushrooms from our fairy ring.",
+        "message":"She should be sorry! She stole our mushrooms.",
         "replies":[
             {
                 "text":"I'm sure she did not mean to steal them. She was probably just gathering mushrooms for a stew.",
@@ -1119,7 +1159,7 @@
     },
     {
         "id":"pixie_fallhaven_8",
-        "message":"A stew? A STEW? That is unthinkable! She must be punished.",
+        "message":"A STEW? That is unacceptable. She must be punished.",
         "replies":[
             {
                 "text":"Don't be mad, I am just trying to help. Is there anything I can do to make this right?",
@@ -1186,7 +1226,7 @@
     },
     {
         "id":"pixie_fallhaven_14",
-        "message":"Please chop down this gnarly old tree inside our fairy circle. Can you do that for us? *giggle*",
+        "message":"Please chop down this gnarly old tree inside our fairy circle. Can you do that for us?",
         "replies":[
             {
                 "text":"No, I am not willing to do that.",

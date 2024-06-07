@@ -4,7 +4,8 @@
         "iconID":"items_japozero:547",
         "name":"Wild Flower",
         "displaytype":"ordinary",
-        "category":"other"
+        "category":"other",
+        "description":"Their sweet scent reminds you of the forest."
     },
     {
         "id":"ring_of_promise_quest",
