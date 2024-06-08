@@ -258,9 +258,9 @@
     <property name="when" value="always"/>
    </properties>
   </object>
-  <object id="11" name="chk_pixie_fallhaven" type="script" x="416" y="0" width="64" height="32">
+  <object id="11" name="chk_pixie_fallhaven" type="script" x="384" y="32" width="128" height="32">
    <properties>
-    <property name="when" value="always"/>
+    <property name="when" value="enter"/>
    </properties>
   </object>
   <object id="12" name="pixie_fallhaven_tree" type="sign" x="256" y="320" width="96" height="96"/>
