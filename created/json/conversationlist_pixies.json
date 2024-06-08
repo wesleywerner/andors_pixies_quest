@@ -1545,13 +1545,6 @@
                 "text":"Oh how wonderful. Thank you forest pixies!",
                 "nextPhraseID":"pixie_fallhaven_37"
             }
-        ],
-        "rewards":[
-            {
-                "rewardType":"questProgress",
-                "rewardID":"fallhaven_pixies",
-                "value":99
-            }
         ]
     },
     {
@@ -1568,6 +1561,11 @@
                 "rewardType":"giveItem",
                 "rewardID":"ring_of_promise",
                 "value":1
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"fallhaven_pixies",
+                "value":99
             }
         ]
     },
