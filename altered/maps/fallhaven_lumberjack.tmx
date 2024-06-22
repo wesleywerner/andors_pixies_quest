@@ -182,30 +182,30 @@
  </tileset>
  <layer id="1" name="Ground" width="12" height="8">
   <data encoding="base64" compression="zlib">
-   eJzbysnAsJVEvF0KFWMTg4mD8HEpVIxN7DiS+s9oGGTWLyD9hROVxqUeZBa62i9Ibu+QZmDoBOIuaYj6Om4GhnogbuDGtBdkFrr5fUB1/UA8gRvT3pecmHgeUN18IF7ADeF/RpIDAFYMUUM=
+   eJzbysnAsJVEvF0KFWMTg4mD8HEpVLxdClPsOJL6z2gYJAdj/wLiL1Aal3pcGObODmkGhk5pwuph7iTWfJDal5yYGBm8hKqFyQEAaOpSPQ==
   </data>
  </layer>
  <layer id="2" name="Objects" width="12" height="8">
   <data encoding="base64" compression="zlib">
-   eJxjYCAd/OdjYFCQxRQHi/EzMExjQxUPhdLbWRkYbrBC2A+A6hgFIOxeoPrdLAj1qVD6OFDtCyDWA6r9BMQf+RFqTiOpr5RmYKgC4p+smG66BBS7B8T3keSCgbgTqJ4TyZ2GUPMeAdW9A+L3SOqT0cx0BKptYUEVm4TGRwcgPY5Y1AAACdIWvA==
+   eJxjYCAd/OdjYFCQxRQHi/EzMExjQxUPhdLbWRkYbrBC2A+A6hgFIOxeoPrdLAj1qVD6OFDtC6j6T0D1H/kRak4jqa+UZmCoksbt3ntAM+6zIvjBQNwJVD8JaoYhkG5CMu8dUO17JPXJWMx0ZMEiSAYAAGisEyg=
   </data>
  </layer>
  <layer id="3" name="Above" width="12" height="8">
   <data encoding="base64" compression="zlib">
-   eJxjYKAf4BbALWfBQppZiUhmVUozMFQB8TVWTHW/gWL3gPg+FjlagJec+DE6AADVIg0k
+   eJxjYKAf4BbALWfBQppZiUhmVUozMFRJ41Z7j5WB4T4raeaTC15y4sfoAACbIQtJ
   </data>
  </layer>
  <layer id="8" name="Top" width="12" height="8">
   <data encoding="base64" compression="zlib">
-   eJxjYCAdHBYjTmwg1V8iUj0+daSoIQUgmwcA8vUKaQ==
+   eJxjYCAdHBYjToya6i+RqB4fIFU9PrvJAcjmAQDzegio
   </data>
  </layer>
  <layer id="4" name="Walkable" width="12" height="8" visible="0">
   <data encoding="base64" compression="zlib">
-   eJzbKMbAsHEQYhDAJY5NDhmg83GZRak6YvQR8hsA4ik5hw==
+   eJzbKMbAsHEQYhDAJY5NjhDAZw9MHp9aYgA5fgMA/2A3Mg==
   </data>
  </layer>
- <objectgroup id="5" name="Mapevents">
+ <objectgroup id="5" name="Mapevents" visible="0">
   <object id="2" name="entrance" type="mapchange" x="288" y="224" width="32" height="32">
    <properties>
     <property name="map" value="fallhaven_sw"/>
