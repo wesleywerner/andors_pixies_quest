@@ -8,7 +8,7 @@
                 "nextPhraseID":"rigmor_1"
             },
             {
-                "text":"Can you tell me about the Lytwings?",
+                "text":"Can you tell me about the lytwings?",
                 "nextPhraseID":"rigmor_lytwing_1",
                 "requires":[
                     {

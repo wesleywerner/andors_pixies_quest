@@ -342,7 +342,7 @@
                 ]
             },
             {
-                "text":"The Lytwings are upset that you took their mushrooms. I pleaded with them, and am now waiting on their decision.",
+                "text":"The lytwings are upset that you took their mushrooms. I pleaded with them, and am now waiting on their decision.",
                 "nextPhraseID":"arensia_lytwing_10",
                 "requires":[
                     {
@@ -364,7 +364,7 @@
                 ]
             },
             {
-                "text":"The Lytwings changed their minds, and are now thinking of something else they want instead.",
+                "text":"The lytwings changed their minds, and are now thinking of something else they want instead.",
                 "nextPhraseID":"arensia_lytwing_13",
                 "requires":[
                     {
@@ -419,7 +419,7 @@
                 ]
             },
             {
-                "text":"The Lytwings ask that you make a promise to never pick mushrooms from their fairy ring again.",
+                "text":"The lytwings ask that you make a promise to never pick mushrooms from their fairy ring again.",
                 "nextPhraseID":"arensia_lytwing_19",
                 "requires":[
                     {
@@ -475,7 +475,7 @@
     },
     {
         "id":"arensia_lytwing_9",
-        "message":"Thank you so much for helping me with the Lytwings!",
+        "message":"Thank you so much for helping me with the lytwings!",
         "replies":[
             {
                 "text":"You are welcome!",
@@ -546,7 +546,7 @@
                 "nextPhraseID":"arensia_lytwing_16"
             },
             {
-                "text":"The Lytwings are driving me insane. I thought about this, and I can't help you any more. I am sorry.",
+                "text":"The lytwings are driving me insane. I thought about this, and I can't help you any more. I am sorry.",
                 "nextPhraseID":"arensia_lytwing_29"
             }
         ]
@@ -600,7 +600,7 @@
     },
     {
         "id":"arensia_lytwing_20",
-        "message":"I know, I will promise on this ring I'm wearing. It belonged to my mother, and it's dear to me, but I will do anything to stop the Lytwings!",
+        "message":"I know, I will promise on this ring I'm wearing. It belonged to my mother, and it's dear to me, but I will do anything to stop the lytwings!",
         "replies":[
             {
                 "text":"I hope this works.",
@@ -610,7 +610,7 @@
     },
     {
         "id":"arensia_lytwing_21",
-        "message":"I made a promise to the ring, here take it to the Lytwings!",
+        "message":"I made a promise to the ring, here take it to the lytwings!",
         "replies":[
             {
                 "text":"I will, right away!",
@@ -632,14 +632,14 @@
     },
     {
         "id":"arensia_lytwing_22",
-        "message":"There is nothing else to be done, and I will have to live with the Lytwings tormenting me until my last day."
+        "message":"There is nothing else to be done, and I will have to live with the lytwings tormenting me until my last day."
     },
     {
         "id":"arensia_lytwing_23",
         "message":"So ... what did they say?",
         "replies":[
             {
-                "text":"The Lytwings finally agreed to leave you in peace.",
+                "text":"The lytwings finally agreed to leave you in peace.",
                 "nextPhraseID":"arensia_lytwing_24"
             }
         ]
@@ -738,7 +738,7 @@
                     {
                         "requireType":"inventoryKeep",
                         "requireID":"wild_flower",
-                        "value":10,
+                        "value":1,
                         "negate":true
                     }
                 ]
@@ -755,19 +755,19 @@
                     {
                         "requireType":"inventoryKeep",
                         "requireID":"wild_flower",
-                        "value":10,
+                        "value":12,
                         "negate":true
                     }
                 ]
             },
             {
-                "text":"I found ten wild flowers. I will take them to the lytwings.",
+                "text":"I have found a dozen wild flowers. I will take them to the lytwings.",
                 "nextPhraseID":"arensia_lytwing_37",
                 "requires":[
                     {
                         "requireType":"inventoryKeep",
                         "requireID":"wild_flower",
-                        "value":10
+                        "value":12
                     }
                 ]
             },
@@ -1291,7 +1291,7 @@
     },
     {
         "id":"lytwing_fallhaven_15",
-        "message":"Hmm, this must be the tree the Lytwings want chopped down. I need to get an iron axe."
+        "message":"Hmm, this must be the tree the lytwings want chopped down. I need to get an iron axe."
     },
     {
         "id":"lytwing_fallhaven_16",
@@ -1390,7 +1390,7 @@
     },
     {
         "id":"lytwing_fallhaven_22",
-        "message":"For our celebrations, we would like ten wild flowers.",
+        "message":"For our celebrations, we would like a dozen wild flowers.",
         "replies":[
             {
                 "text":"This is getting silly. I don't want to collect flowers for you.",
@@ -1424,9 +1424,40 @@
                     {
                         "requireType":"inventoryRemove",
                         "requireID":"wild_flower",
-                        "value":10
+                        "value":12
                     }
                 ]
+            },
+            {
+                "text":"Yes, here are your flowers.",
+                "nextPhraseID":"lytwing_fallhaven_23a",
+                "requires":[
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"wild_flower",
+                        "value":1
+                    },
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"wild_flower",
+                        "value":12,
+						"negate":true
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"lytwing_fallhaven_23a",
+        "message":"No, you don't have enough flowers. A dozen means 12, not one less. Do you think lytwings can't count?",
+        "replies":[
+            {
+                "text":"I have collected enough for you. Take it or leave it.",
+                "nextPhraseID":"lytwing_fallhaven_13"
+            },
+            {
+                "text":"Sorry, I'm going to look for the missing wildflowers now.",
+                "nextPhraseID":"X"
             }
         ]
     },
