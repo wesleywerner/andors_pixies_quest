@@ -247,12 +247,12 @@
     <property name="place" value="north"/>
    </properties>
   </object>
-  <object id="9" name="chk_pixie_wildflowers" type="script" x="256" y="0" width="64" height="32">
+  <object id="9" name="chk_lytwing_wildflowers" type="script" x="256" y="0" width="64" height="32">
    <properties>
     <property name="when" value="enter"/>
    </properties>
   </object>
-  <object id="22" name="chk_pixie_wildflowers" type="script" x="608" y="256" width="32" height="64">
+  <object id="22" name="chk_lytwing_wildflowers" type="script" x="608" y="256" width="32" height="64">
    <properties>
     <property name="when" value="enter"/>
    </properties>

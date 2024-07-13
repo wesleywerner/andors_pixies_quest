@@ -8,12 +8,12 @@
                 "nextPhraseID":"rigmor_1"
             },
             {
-                "text":"Can you tell me about the Pixies?",
-                "nextPhraseID":"rigmor_pixie_1",
+                "text":"Can you tell me about the Lytwings?",
+                "nextPhraseID":"rigmor_lytwing_1",
                 "requires":[
                     {
                         "requireType":"questLatestProgress",
-                        "requireID":"fallhaven_pixies",
+                        "requireID":"fallhaven_lytwings",
                         "value":1
                     }
                 ]

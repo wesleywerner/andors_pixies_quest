@@ -24,11 +24,11 @@
             },
             {
                 "text":"Do you have strawberries?",
-                "nextPhraseID":"bela_pixie_strawberries",
+                "nextPhraseID":"bela_lytwing_strawberries",
                 "requires":[
                     {
                         "requireType":"questLatestProgress",
-                        "requireID":"fallhaven_pixies",
+                        "requireID":"fallhaven_lytwings",
                         "value":11
                     }
                 ]

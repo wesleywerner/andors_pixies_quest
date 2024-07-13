@@ -27,40 +27,40 @@
             },
             {
                 "text":"You seem tired. Is everything alright?",
-                "nextPhraseID":"arensia_pixie_select",
+                "nextPhraseID":"arensia_lytwing_select",
                 "requires":[
                     {
                         "requireType":"questProgress",
-                        "requireID":"fallhaven_pixies",
+                        "requireID":"fallhaven_lytwings",
                         "value":1,
                         "negate":true
                     }
                 ]
             },
             {
-                "text":"About the Pixies ...",
-                "nextPhraseID":"arensia_pixie_select",
+                "text":"About the Lytwings ...",
+                "nextPhraseID":"arensia_lytwing_select",
                 "requires":[
                     {
                         "requireType":"questProgress",
-                        "requireID":"fallhaven_pixies",
+                        "requireID":"fallhaven_lytwings",
                         "value":1
                     },
                     {
                         "requireType":"questProgress",
-                        "requireID":"fallhaven_pixies",
+                        "requireID":"fallhaven_lytwings",
                         "value":100,
                         "negate":true
                     }
                 ]
             },
             {
-                "text":"Have the Pixies honored their word?",
-                "nextPhraseID":"arensia_pixie_34",
+                "text":"Have the Lytwings honored their word?",
+                "nextPhraseID":"arensia_lytwing_34",
                 "requires":[
                     {
                         "requireType":"questProgress",
-                        "requireID":"fallhaven_pixies",
+                        "requireID":"fallhaven_lytwings",
                         "value":100
                     },
                     {
