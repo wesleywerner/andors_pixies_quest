@@ -38,7 +38,7 @@
                 ]
             },
             {
-                "text":"About the Lytwings ...",
+                "text":"About the lytwings ...",
                 "nextPhraseID":"arensia_lytwing_select",
                 "requires":[
                     {
@@ -55,7 +55,7 @@
                 ]
             },
             {
-                "text":"Have the Lytwings honored their word?",
+                "text":"Have the lytwings honored their word?",
                 "nextPhraseID":"arensia_lytwing_34",
                 "requires":[
                     {
